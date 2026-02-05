@@ -1,0 +1,16 @@
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+body{background:#0f1724;color:#e6eef8;margin:0;padding:24px}
+.app{max-width:880px;margin:0 auto;border-radius:12px;overflow:hidden}
+header{padding:20px 24px;background:linear-gradient(90deg,#0b1220,#071024);border-radius:8px}
+header h1{margin:0;font-size:20px}
+.subtitle{margin:4px 0 0;color:#9fb4c9;font-size:13px}
+main{background:#071026;padding:16px;border-radius:8px 8px 0 0;height:60vh;display:flex;flex-direction:column}
+.messages{flex:1;overflow:auto;padding-right:6px}
+.message{margin:12px 0;display:flex}
+.message.user{justify-content:flex-end}
+.bubble{max-width:75%;padding:12px 14px;border-radius:12px;background:#0ea5a9;color:#021926}
+.bubble.bot{background:#0b1120;color:#cfe8ff;border:1px solid rgba(255,255,255,0.03)}
+#composer{display:flex;gap:8px;padding:12px}
+#input{flex:1;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:#041226;color:#e6eef8}
+#send{padding:10px 14px;border-radius:8px;border:none;background:#06b6d4;color:#012;cursor:pointer}
+small.sources{display:block;color:#9fb4c9;margin-top:4px;font-size:12px}

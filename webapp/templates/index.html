@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rag-Chatbot — Web UI</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Rag-Chatbot</h1>
+      <p class="subtitle">Retrieval-augmented chatbot demo</p>
+    </header>
+
+    <main id="chat">
+      <div id="messages" class="messages"></div>
+    </main>
+
+    <form id="composer" autocomplete="off">
+      <input id="input" placeholder="Ask a question..." />
+      <button id="send">Send</button>
+    </form>
+  </div>
+  <script src="/static/js/chat.js"></script>
+</body>
+</html>
